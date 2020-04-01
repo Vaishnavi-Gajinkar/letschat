@@ -4,7 +4,7 @@ from chat.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chat', include('chat.urls'), name='chat'),
+    path('chat/', include('chat.urls'), name='chat'),
     path('',include('accounts.urls'), name='account'),
 
 ]
