@@ -9,7 +9,7 @@ urlpatterns = [
     path('customers/',views.customers),
     path('register/',views.registerPage, name="register"),
     path('login/', views.loginPage, name="login"),
-
+]
 
 
 # from django.urls import path

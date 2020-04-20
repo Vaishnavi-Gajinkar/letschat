@@ -18,7 +18,7 @@ def registerPage(request):
         password1=request.POST["password1"]
         password2=request.POST["password2"]
         # assert isinstance(User.objects.create_user,)
-        x = register(username=username, email=email, password1=password1, password2=password$
+        x = register(username=username, email=email, password1=password1, password2=password2)
         x.save()
         print("User Successfully Created")
         return redirect("/")
